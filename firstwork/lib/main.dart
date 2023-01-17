@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
+import 'Home.dart';
 
 void main() {
   runApp(
-    new MaterialApp(
-      home: new Container(
-        color: Colors.white,
-        child: Text("Hello world two4"),
-      ),
+    MaterialApp(
+      home: HomePage()
     )
   );
 }
